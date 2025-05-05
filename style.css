@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Un azul claro y suave */
+    color: #333;
+}
+
+header {
+    background-color: #03a9f4; /* Un azul más vibrante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #81d4fa; /* Un azul más claro aún */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.pagina-principal {
+    text-align: center;
+}
+
+.imagen-principal {
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.etapa {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.etapa h2 {
+    color: #03a9f4;
+}
+
+.etapa img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.etapa ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.interactivo {
+    background-color: #fffde7; /* Un amarillo pálido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #ccc;
+    text-align: center;
+}
+
+#juego-ciclo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#etapa-arrastrable-1, #etapa-arrastrable-2, #etapa-arrastrable-3, #etapa-arrastrable-4 {
+    background-color: #ffcdd2; /* Un rojo suave */
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.zona-destino {
+    width: 150px;
+    height: 40px;
+    background-color: #e0f2f7; /* Otro tono de azul claro */
+    border: 2px dashed #03a9f4;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #0288d1; /* Un azul más oscuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
